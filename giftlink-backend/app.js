@@ -35,6 +35,7 @@ app.use('/api/gifts', giftRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/search', searchRoutes);
 
+
 // Global Error Handler
 app.use((err, req, res, next) => {
     console.error(err);
