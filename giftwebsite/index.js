@@ -12,6 +12,4 @@ app.get('/app', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(9000, "0.0.0.0", () => {
-  console.log("Server running on port 9000");
-});
+app.listen(9000);
